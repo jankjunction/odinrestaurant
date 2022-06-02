@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+}
+
+#header {
+    padding: 16px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid black;
+}
+
+#icon {
+    width: 50px;
+    justify-self: end;
+}
+
+#logoText {
+    font-size: 2rem;
+}
+
+#nav {
+    padding: 4px;
+    display: flex;
+    gap: 16px;
+    align-self: end;
+}

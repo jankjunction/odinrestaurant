@@ -20,6 +20,9 @@ const buildHeader = (() => {
     redditIcon.setAttribute('id', 'icon');
     header.setAttribute('id', 'header');
     nav.setAttribute('id', 'nav');
+    home.setAttribute('id', 'home');
+    menu.setAttribute('id', 'menu');
+    contact.setAttribute('id', 'contact');
     
     content.appendChild(header);
     
@@ -31,3 +34,5 @@ const buildHeader = (() => {
     nav.appendChild(menu);
     nav.appendChild(contact);
 })();
+
+export default buildHeader;

@@ -97,3 +97,41 @@ body {
     grid-auto-flow: row;
     gap: 24px;
 }
+
+#contact-container {
+    display: grid;
+    grid-auto-flow: row;
+    margin: auto;
+    gap: 24px;
+}
+
+#phone {
+    display: grid;
+    width: 100%;
+    gap: 24px;
+}
+
+#phone > h2 {
+    font-weight: 300;
+    width: 60%;
+}
+
+#iconContainer {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    justify-items: center;
+    margin-top: 24px;
+}
+
+#iconContainer > img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+#phone-text {
+    justify-self: center;
+    font-size: 3rem;
+}

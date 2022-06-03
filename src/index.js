@@ -1,9 +1,9 @@
 import './style.css';
 import buildHeader from './header.js';
 import buildAbout from './about.js';
-import buildMenu from './menu';
+import buildMenu from './menu.js';
 import buildContact from './contact.js';
-import events from './events';
+import events from './events'; 
 
 const wipeContent = (() => {
     let content = document.getElementById('content');
